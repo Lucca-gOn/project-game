@@ -1,0 +1,27 @@
+/* Fontes importadas */
+@font-face {
+    font-family:"titillium" ;
+    src: url(../assets/fonts/Titillium-web/TitilliumWeb-Regular.ttf);
+}
+@font-face {
+    font-family: "quick-sand";
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+/* Propriedades Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile First */
+
+body {
+    background-color: rgb(43, 156, 226);
+}
