@@ -20,8 +20,62 @@
     box-sizing: border-box;
 }
 
+body {
+    color: #FFFFFF;
+    background-color: #1B1426;
+}
+/* CLASSES GENERICAS */
+.layout-grid {
+    margin: 0 auto;
+    /* para mobile use 90% e desktop 100% */
+    width: 90%;
+    height: 100%;
+}
+
+.alinhamento-between-centro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Mobile First */
 
-body {
-    background-color: rgb(43, 156, 226);
+/* HEADER */
+header {
+    background-color: #1B1426;
+    height: 60px;
 }
+
+
+/* Header TOP */
+header .header-top {
+    display: none;
+}
+
+/* Header Bottom */
+header .header-bottom {
+    height: 100%;
+}
+
+header .header-bottom img.logo {
+    width: 86px;
+}
+
+header .header-bottom nav {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 80vw;
+    height: calc(100vh - 60px);
+    
+    
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    border: 1px solid white;
+}
+
+header .header-bottom .menu-usuarios {
+    display: none;
+}
+
