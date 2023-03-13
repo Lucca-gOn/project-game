@@ -41,11 +41,11 @@
         </div>
         <div class="header-bottom ">
             <div class="layout-grid alinhamento-between-centro">
-                <img class="menu-hamburguer" src="./assets/icons/icon-menu-lateral.svg"
+                <img onclick="mostrarMenu" class="menu-hamburguer" src="./assets/icons/icon-menu-lateral.svg"
                     alt="Icone para abrir e fechar o menu lateral mobile">
                 <img class="logo" src="./assets/images/logotipo-gamer.svg"
                     alt="Imagem de um controle com um texto por baixo">
-                <nav>
+                <nav class="menu" id="menu">
                     <a href="">Início</a>
                     <a href="">Jogadores</a>
                     <a href="">Equipes</a>
@@ -53,14 +53,14 @@
 
                     <!-- VISIVEL APENAS NO MOBILE -->
 
-                    <div class="phone">
+                    <a class="phone">
                         <img src="./assets/icons/icon-telefone.svg" alt="icone do telefone">
                         <span>(11) 0000-0000</span>
-                    </div>
-                    <div class="email">
+                    </a>
+                    <a class="email">
                         <img src="./assets/icons/icon-email.svg" alt="icone do email">
                         <span>lucas.g@gamer.com.br</span>
-                    </div>
+                    </a>
 
                     <!-- VISIVEL APENAS NO MOBILE -->
                     <div class="midias-sociais">
@@ -97,6 +97,12 @@
     </header>
     <main></main>
     <footer></footer>
+    
+    <script>
+        function mostrarMenu() {
+            document.getElementById("menu").classList.toogle("mostrar-menu");
+        }
+    </script>
 </body>
 
 </html>
