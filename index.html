@@ -41,7 +41,7 @@
         </div>
         <div class="header-bottom ">
             <div class="layout-grid alinhamento-between-centro">
-                <img onclick="mostrarMenu" class="menu-hamburguer" src="./assets/icons/icon-menu-lateral.svg"
+                <img onclick="mostrarMenu()" class="menu-hamburguer" src="./assets/icons/icon-menu-lateral.svg"
                     alt="Icone para abrir e fechar o menu lateral mobile">
                 <img class="logo" src="./assets/images/logotipo-gamer.svg"
                     alt="Imagem de um controle com um texto por baixo">
@@ -78,10 +78,10 @@
                     </div>
                 </nav>
                 <!-- menu 3 pontinhos -->
-                <img class="menu-pontos" src="./assets/icons/icon-menu-lateral2.svg"
+                <img onclick="mostrarMenuUser()" class="menu-pontos" src="./assets/icons/icon-menu-lateral2.svg"
                     alt="Icone 3 pontinhos que abre o menu lateral">
 
-                <div class="menu-usuarios">
+                <div class="menu-usuarios" id="menu-usuarios">
                     <a href="">
                         <img src="./assets/icons/icon-login.svg" alt="Uma imagem de um boneco que indica perfil">
                     </a>
@@ -95,13 +95,23 @@
             </div>
         </div>
     </header>
-    <main></main>
+    <main>
+        <section class="banner">
+                <h1>Liga Gamers</h1>
+                <button class="botao-sobre">Sobre</button>
+            </div>
+        </section>
+    </main>
     <footer></footer>
-    
+
     <script>
         function mostrarMenu() {
-            document.getElementById("menu").classList.toogle("mostrar-menu");
+            document.getElementById("menu").classList.toggle("mostrar-menu");
         }
+        function mostrarMenuUser() {
+            document.getElementById("menu-usuarios").classList.toggle("mostrar-user");
+        }
+
     </script>
 </body>
 

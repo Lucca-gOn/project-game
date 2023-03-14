@@ -38,6 +38,13 @@ body {
     align-items: center;
 }
 
+.mostrar-menu {
+    left: 0px !important;
+}
+
+.mostrar-user {
+    right: 0px !important;
+}
 /* Mobile First */
 
 /* HEADER */
@@ -73,14 +80,40 @@ header .header-bottom nav {
     z-index: 21;
     width: 80vw;
     height: calc(100vh - 60px);
-    
+    transition: left 1.0s;
     
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to right bottom, rgb(27, 20, 38, 0.7), rgb(27, 20, 38, 0.4));
     backdrop-filter: blur(45px);
     border-image: linear-gradient(to right bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
-    border-width: 10px;
+    border-width: 1px;
+}
+
+header .header-bottom nav .phone {
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+   
+}
+
+header .header-bottom nav .email {
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 header .header-bottom nav>a {
@@ -102,6 +135,10 @@ header .header-bottom nav>a:last-of-type {
     border: none;
 }
 
+header .header-bottom nav>a:first-of-type {
+    color: #F9AA01;
+}
+
 header .header-bottom nav .midias-sociais {
     display: flex;
     justify-content: center;
@@ -112,6 +149,71 @@ header .header-bottom nav .midias-sociais {
 
 /* menu lateral direito */
 header .header-bottom .menu-usuarios {
-    display: none;
+    position: fixed;
+    top: 60px;
+    right: -35vw;
+    z-index: 22;
+    width: 17vw;
+    height: calc(35vh - 60px);
+    
+    background-image: linear-gradient(to right bottom, rgb(27, 20, 38, 0.7), rgb(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
+    border-image: linear-gradient(to right bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    border-width: 1px;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+    transition: right 1.0s;
 }
 
+/* MAIN  */
+
+/* BANNER */ 
+main {
+    margin-top: 59px;
+}
+
+main .banner {
+    width: 100%;
+    height: 607px;
+    background-image: url(../assets/images/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .banner h1 {
+    color: white;
+    font-family: "titillium";
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+
+    filter: drop-shadow(0px 0px 10px #FD4255);
+
+}
+
+main .banner .botao-sobre {
+    width: 203px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    
+    color: black;
+    font-family: "titillium";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    background-color: #F9AA01;
+
+}
