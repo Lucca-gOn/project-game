@@ -456,6 +456,7 @@ main .alinhar-box {
 footer .footer-background {
     width: 100%;
     height: 1531px;
+    box-shadow: inset 0px 30px 60px rgb(0, 0, 0, 1);
     background-image: url(../assets/images/Vectorfooterbackground.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -463,14 +464,50 @@ footer .footer-background {
 
 }
 
-footer .footer-background .alinhar-centro {
+footer .footer-background .sobre {
+    width: 100%;
+    height: 304px;
+    padding: 15px 5px;
+    border: 1px solid red;
+}
+
+footer .sobre .logo {
+    width: 141px;
+    height: 40px;
+}
+
+footer .sobre p {
+    color: white;
+    font-family: "quick-sand";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer .footer-background {
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
 
-footer .alinhar-centro .logo {
+footer .footer-background .logo {
     width: 141px;
     height: 40px;
 }
@@ -493,7 +530,7 @@ footer .links-uteis {
     width: 100%;
 }
 
-footer .links-uteis h1 {
+footer .titulos-footer h1 {
     color: white;
     font-family: "titillium";
     font-weight: 900;
@@ -501,21 +538,83 @@ footer .links-uteis h1 {
     line-height: 60px;
 }
 
-footer .links-uteis hr {
+footer .titulos-footer hr {
     width: 150px;
     border: 2px solid #F9AA01;
 }
 
-footer .links-footer {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    gap
-
+footer .links-uteis {
+    width: 100%;
 }
 
-footer .links-footer li {
+footer .menu-footer ul {
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    
+    
+}
+
+footer .menu-footer li::before {
+    content: "\2015";
     color: #F9AA01;
+    margin-right: 10px;
+}
+
+footer .menu-footer a {
+    color: white;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    text-decoration: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer .links-uteis {
+    width: 100%;
+}
+
+
+
+
+
+
+footer .links-footer {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .links-footer ul {
+    list-style: none;
+}
+
+footer .links-footer li::before {
+    content: "\2015";
+    color: #F9AA01;
+    
+    
 }
 
 footer .links-footer a {
@@ -527,3 +626,11 @@ footer .links-footer a {
     text-align: justify;
     text-decoration: none;
 }
+
+/* footer .contatos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+} */ */
