@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Gamer</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/media-queries-desktop.css">
 </head>
 
 <body>
@@ -99,206 +100,223 @@
         <section class="banner">
             <h1>Liga Gamers</h1>
             <button class="botao-sobre">Sobre</button>
-            </div>
         </section>
         <section class="populares">
-            <article class="mais-popular">
-                <div class="gradiente">
-                    <div class="paralelograma">
-                        <div class="texto">
-                            <span>Mais Popular</span>
+            <div class="card-games layout-grid">
+                <article class="mais-popular">
+                    <div class="gradiente">
+                        <div class="paralelograma">
+                            <div class="texto">
+                                <span>Mais Popular</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </article>
+                </article>
 
-            <article class="ultimo-jogo">
-                <div class="gradiente">
-                    <div class="paralelograma">
-                        <div class="texto">
-                            <span>Último Jogo</span>
+                <article class="ultimo-jogo">
+                    <div class="gradiente">
+                        <div class="paralelograma">
+                            <div class="texto">
+                                <span>Último Jogo</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </article>
-        </section>
-        <section class="times-info layout-grid">
-            <h2>Entre para o time progamer</h2>
-            <hr>
-            <div class="personagem-cima">
-                <img src="./assets/images/Vectorkilljoy.png"
-                    alt="Personagem feminino de um jogo de tiro em primeira pessoa conhecido como valorant">
-            </div>
-            <div class="gradiente-roxo caixa-cima">
-                <img src="./assets/icons/icon-controle.svg" alt="imagem de um controle de video game">
-                <h3>20 jogos diferentes</h3>
-                <p>São mais de 20 jogos em 2 plataformas dispóniveis para que você possa aprender melhores técnicas.
-                </p>
+                </article>
             </div>
 
-            <div class="personagem-baixo">
-                <img src="./assets/images/Vectorjinx.png"
-                    alt="Personagem feminino de jogo conhecido como League of Legends">
-            </div>
-            <div class="gradiente-roxo caixa-baixo">
-                <img src="./assets/icons/icon-player.svg" alt="imagem de um controle de video game">
-                <h3>53 professores</h3>
-                <p>Temos 53 Proplayers no nosso time para ensinar todas as estratégias, você vai aprender do básico
-                    ao
-                    avançado. Tempo de treinamento, descanso, equipamentos.</p>
+        </section>
+        <section class="times-info">
+            <div class="layout-grid">
+                <div class="time-pro">
+                    <h2>Entre para o time progamer</h2>
+                    <hr>
+                </div>
+                <div class="personagem-cima">
+                    <img src="./assets/images/Vectorkilljoy.png"
+                        alt="Personagem feminino de um jogo de tiro em primeira pessoa conhecido como valorant">
+                </div>
+                <div class="gradiente-roxo caixa-cima">
+                    <img src="./assets/icons/icon-controle.svg" alt="imagem de um controle de video game">
+                    <h3>20 jogos diferentes</h3>
+                    <p>São mais de 20 jogos em 2 plataformas dispóniveis para que você possa aprender melhores técnicas.
+                    </p>
+                </div>
+
+                <div class="personagem-baixo">
+                    <img src="./assets/images/Vectorjinx.png"
+                        alt="Personagem feminino de jogo conhecido como League of Legends">
+                </div>
+                <div class="gradiente-roxo caixa-baixo">
+                    <img src="./assets/icons/icon-player.svg" alt="imagem de um controle de video game">
+                    <h3>53 professores</h3>
+                    <p>Temos 53 Proplayers no nosso time para ensinar todas as estratégias, você vai aprender do básico
+                        ao
+                        avançado. Tempo de treinamento, descanso, equipamentos.</p>
+                </div>
             </div>
         </section>
-        <section class="noticias layout-grid">
+        <section class="noticias">
             <div class="noticias-gradiente">
-                <div class="layout-grid">
+                <div class="noticias-flex layout-grid">
                     <div class="noticia-titulo">
                         <h3>Notícia</h3>
                         <hr>
                     </div>
-                    <div class="alinhar-box">
-                        <article class="box-noticias">
-                            <img src="./assets/images/Vectorimage-noticia.png"
-                                alt="um palco colorido onde pro-players ficam para jogar em campeonatos">
-                            <div class="box-texto">
-                                <h3>Titulo da Notícia</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
-                                    ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                        </article>
 
-                        <article class="box-noticias">
-                            <img src="./assets/images/Vectorjogadoresspc.png"
-                                alt="Time de 6 jgoadores profisionais de braço cruzado">
-                            <div class="box-texto">
-                                <h3>Titulo da Notícia</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
-                                    ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                        </article>
+                    <article class="box-noticias">
+                        <img src="./assets/images/Vectorimage-noticia.png"
+                            alt="um palco colorido onde pro-players ficam para jogar em campeonatos">
+                        <div class="box-texto">
+                            <h3>Titulo da Notícia</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
 
-                        <article class="box-noticias">
-                            <img src="./assets/images/Vectorloud.png"
-                                alt="time com 5 jogadores profissionais de jogos comemorando">
-                            <div class="box-texto">
-                                <h3>Titulo da Notícia</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
-                                    ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                        </article>
+                    <article class="box-noticias">
+                        <img src="./assets/images/Vectorjogadoresspc.png"
+                            alt="Time de 6 jgoadores profisionais de braço cruzado">
+                        <div class="box-texto">
+                            <h3>Titulo da Notícia</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
 
-                        <article class="box-noticias">
-                            <img src="./assets/images/Vectorpalco.png" alt="palco de abertura onde jogadores ficam">
-                            <div class="box-texto">
-                                <h3>Titulo da Notícia</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
-                                    ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                        </article>
+                    <article class="box-noticias">
+                        <img src="./assets/images/Vectorloud.png"
+                            alt="time com 5 jogadores profissionais de jogos comemorando">
+                        <div class="box-texto">
+                            <h3>Titulo da Notícia</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
 
-                        <article class="box-noticias">
-                            <img src="./assets/images/Vectorjogadoresspc.png"
-                                alt="time com 5 jogadores profissionais de jogos comemorando">
-                            <div class="box-texto">
-                                <h3>Titulo da Notícia</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
-                                    ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                        </article>
+                    <article class="box-noticias">
+                        <img src="./assets/images/Vectorpalco.png" alt="palco de abertura onde jogadores ficam">
+                        <div class="box-texto">
+                            <h3>Titulo da Notícia</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
 
-                        <article class="box-noticias">
-                            <img src="./assets/images/Vectorpalco.png" alt="palco de abertura onde jogadores ficam">
-                            <div class="box-texto">
-                                <h3>Titulo da Notícia</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
-                                    ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                        </article>
+                    <article class="box-noticias">
+                        <img src="./assets/images/Vectorjogadoresspc.png"
+                            alt="time com 5 jogadores profissionais de jogos comemorando">
+                        <div class="box-texto">
+                            <h3>Titulo da Notícia</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
 
-                        <article class="box-noticias">
-                            <img src="./assets/images/Vectorimage-noticia.png"
-                                alt="um palco colorido onde pro-players ficam para jogar em campeonatos">
-                            <div class="box-texto">
-                                <h3>Titulo da Notícia</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
-                                    ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                        </article>
+                    <article class="box-noticias">
+                        <img src="./assets/images/Vectorpalco.png" alt="palco de abertura onde jogadores ficam">
+                        <div class="box-texto">
+                            <h3>Titulo da Notícia</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
 
-                        <article class="box-noticias">
-                            <img src="./assets/images/Vectorjogadoresspc.png"
-                                alt="Time de 6 jgoadores profisionais de braço cruzado">
-                            <div class="box-texto">
-                                <h3>Titulo da Notícia</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
-                                    ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                        </article>
-                    </div>
+                    <article class="box-noticias">
+                        <img src="./assets/images/Vectorimage-noticia.png"
+                            alt="um palco colorido onde pro-players ficam para jogar em campeonatos">
+                        <div class="box-texto">
+                            <h3>Titulo da Notícia</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
+
+                    <article class="box-noticias">
+                        <img src="./assets/images/Vectorjogadoresspc.png"
+                            alt="Time de 6 jgoadores profisionais de braço cruzado">
+                        <div class="box-texto">
+                            <h3>Titulo da Notícia</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur laudanti. Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </article>
+
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="footer-background layout-grid">
+        <div class="footer-background">
+            <div class="footer-flex layout-grid">
 
-            <div class="sobre">
-                <img class="logo" src="./assets/images/logotipo-gamer.svg"
-                    alt="Imagem de um controle com um texto por baixo">
-                <p>Nosso sucesso na criação de soluções de negócios se deve em grande parte à nossa equipe talentosa e
-                    altamente comprometida.</p>
-            </div>
-            <div class="midias-sociais">
-                <a href="">
-                    <img src="./assets/icons/icon-facebook-footer.svg"
-                        alt="Uma imagem com uma letra com forma de F de facebook">
-                </a>
-                <a href="">
-                    <img src="./assets/icons/icon-linkedin-footer.svg" alt="Imagem de duas letras IN de linkedin">
-                </a>
-                <a href="">
-                    <img src="./assets/icons/icon-instagram-footer.svg"
-                        alt="Uma imagem de camera fotografica de instagram">
-                </a>
-            </div>
-            <div class="links-uteis">
-                <div class="titulos-footer">
-                    <h1>Links Úteis</h1>
-                    <hr>
+                <div class="sobre">
+                    <img class="logo" src="./assets/images/logotipo-gamer.svg"
+                        alt="Imagem de um controle com um texto por baixo">
+                    <p>Nosso sucesso na criação de soluções de negócios se deve em grande parte à nossa equipe talentosa
+                        e
+                        altamente comprometida.</p>
                 </div>
-                <div class="menu-footer">
-                    <ul>
-                        <li><a href="">Início</a></li>
-                        <li><a href="">Jogadores</a></li>
-                        <li><a href="">Notícias</a></li>
-                        <li><a href="">Login</a></li>
-                        <li><a href="">Equipes</a></li>
-                    </ul>
+                <div class="midias-sociais">
+                    <a href="">
+                        <img src="./assets/icons/icon-facebook-footer.svg"
+                            alt="Uma imagem com uma letra com forma de F de facebook">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/icon-linkedin-footer.svg" alt="Imagem de duas letras IN de linkedin">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/icon-instagram-footer.svg"
+                            alt="Uma imagem de camera fotografica de instagram">
+                    </a>
                 </div>
+                <div class="links-uteis">
+                    <div class="titulos-footer">
+                        <h1>Links Úteis</h1>
+                        <hr>
+                    </div>
+                    <div class="menu-footer">
+                        <ul>
+                            <li><a href="">Início</a></li>
+                            <li><a href="">Jogadores</a></li>
+                            <li><a href="">Notícias</a></li>
+                            <li><a href="">Login</a></li>
+                            <li><a href="">Equipes</a></li>
+                        </ul>
+                    </div>
 
-            </div>
-            <div class="contatos">
-                <div class="titulos-footer">
-                    <h1>Contatos</h1>
-                    <hr>
-                    <div>
-                        <span class="info-contatos">Localização:</span>
-                        <span class="info-contatos">Junte-se a nós:</span>
-                        <span class="info-contatos">Telefone:</span>
+                </div>
+                <div class="contatos">
+                    <div class="titulos-footer">
+                        <h1>Contatos</h1>
+                        <hr>
+                        <div class="info-local">
+                            <span class="info-contatos">Localização:</span>
+                            <span class="info-pessoal">Rua Niterói,180 - São Caetano do Sul-SP</span>
+                            <span class="info-contatos">Junte-se a nós:</span>
+                            <span class="info-pessoal">contato@gamer.com.br</span>
+                            <span class="info-contatos">Telefone:</span>
+                            <span class="info-pessoal">(11) 0000-0000</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="newsletter">
-                <div class="titulos-footer">
-                    <h3>Contatos</h3>
-                    <hr>
+                <div class="newsletter">
+                    <div class="titulos-footer">
+                        <h1>Newsletter</h1>
+                        <hr>
+                    </div>
+
+                    <form action="" class="frm-news">
+                        <input class="input-footer" type="email" placeholder="Digite seu email:">
+                        <button class="button">Enviar</button>
+                    </form>
                 </div>
-
-                <form action="" class="frm-news">
-                    <input type="email" placeholder="Digite seu email">
-                    <button>Enviar</button>
-                </form>
+                <div class="copy-right">
+                    <span>©Copyright2023-Nomedoprojeto</span>
+                </div>
+                <div class="voltar-inicio">
+                    <img src="./assets/icons/icon-voltar-ao-topo.svg" alt="uma seta apontada para cima, utilizada para voltar ao inicio da pagina">
+                </div>
             </div>
-
         </div>
     </footer>
 
