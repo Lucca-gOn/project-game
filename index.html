@@ -8,12 +8,13 @@
     <title>Projeto Gamer</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/media-queries-desktop.css">
+    <link rel="stylesheet" href="./css/import-fonts.css">
 </head>
 
 <body>
     <header>
         <div class="header-top">
-            <div class="layout-grid">
+            <div class="layout-grid header-flex">
                 <div class="contatos">
                     <div class="phone">
                         <img src="./assets/icons/icon-telefone.svg" alt="icone do telefone">
@@ -157,12 +158,13 @@
         </section>
         <section class="noticias">
             <div class="noticias-gradiente">
-                <div class="noticias-flex layout-grid">
-                    <div class="noticia-titulo">
-                        <h3>Notícia</h3>
-                        <hr>
-                    </div>
 
+                <div class="noticia-titulo">
+                    <h3>Notícia</h3>
+                    <hr>
+                </div>
+
+                <div class="noticias-flex layout-grid">
                     <article class="box-noticias">
                         <img src="./assets/images/Vectorimage-noticia.png"
                             alt="um palco colorido onde pro-players ficam para jogar em campeonatos">
@@ -248,27 +250,28 @@
     <footer>
         <div class="footer-background">
             <div class="footer-flex layout-grid">
-
                 <div class="sobre">
                     <img class="logo" src="./assets/images/logotipo-gamer.svg"
                         alt="Imagem de um controle com um texto por baixo">
                     <p>Nosso sucesso na criação de soluções de negócios se deve em grande parte à nossa equipe talentosa
-                        e
-                        altamente comprometida.</p>
+                        e altamente comprometida.</p>
+
+                    <div class="midias-sociais">
+                        <a href="">
+                            <img src="./assets/icons/icon-facebook-footer.svg"
+                                alt="Uma imagem com uma letra com forma de F de facebook">
+                        </a>
+                        <a href="">
+                            <img src="./assets/icons/icon-linkedin-footer.svg"
+                                alt="Imagem de duas letras IN de linkedin">
+                        </a>
+                        <a href="">
+                            <img src="./assets/icons/icon-instagram-footer.svg"
+                                alt="Uma imagem de camera fotografica de instagram">
+                        </a>
+                    </div>
                 </div>
-                <div class="midias-sociais">
-                    <a href="">
-                        <img src="./assets/icons/icon-facebook-footer.svg"
-                            alt="Uma imagem com uma letra com forma de F de facebook">
-                    </a>
-                    <a href="">
-                        <img src="./assets/icons/icon-linkedin-footer.svg" alt="Imagem de duas letras IN de linkedin">
-                    </a>
-                    <a href="">
-                        <img src="./assets/icons/icon-instagram-footer.svg"
-                            alt="Uma imagem de camera fotografica de instagram">
-                    </a>
-                </div>
+
                 <div class="links-uteis">
                     <div class="titulos-footer">
                         <h1>Links Úteis</h1>
@@ -279,8 +282,8 @@
                             <li><a href="">Início</a></li>
                             <li><a href="">Jogadores</a></li>
                             <li><a href="">Notícias</a></li>
-                            <li><a href="">Login</a></li>
                             <li><a href="">Equipes</a></li>
+                            <li><a href="">Login</a></li>
                         </ul>
                     </div>
 
@@ -310,11 +313,13 @@
                         <button class="button">Enviar</button>
                     </form>
                 </div>
+
+                <div class="voltar-inicio">
+                    <img src="./assets/icons/icon-voltar-ao-topo.svg"
+                        alt="uma seta apontada para cima, utilizada para voltar ao inicio da pagina">
+                </div>
                 <div class="copy-right">
                     <span>©Copyright2023-Nomedoprojeto</span>
-                </div>
-                <div class="voltar-inicio">
-                    <img src="./assets/icons/icon-voltar-ao-topo.svg" alt="uma seta apontada para cima, utilizada para voltar ao inicio da pagina">
                 </div>
             </div>
         </div>
