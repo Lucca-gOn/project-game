@@ -13,7 +13,7 @@
     src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
 
-/* Propriedades Reset */
+/* PROPRIEDADES DE RESET */
 * {
     margin: 0;
     padding: 0;
@@ -84,16 +84,18 @@ header .header-bottom nav {
     
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to right bottom, rgb(27, 20, 38, 0.7), rgb(27, 20, 38, 0.4));
+    background: linear-gradient(168.78deg, #1B1426 0%, rgba(27, 20, 38, 0.7) 0.01%, rgba(27, 20, 38, 0.4) 99.03%) padding-box,
+    linear-gradient(168.61deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 99.04%) border-box;
+
+    border: 1px solid transparent;
+    border-image-slice: 1;
     backdrop-filter: blur(10px);
-    border-image: linear-gradient(to right bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
     border-width: 1px;
 }
 
 header .header-bottom nav .phone,
 header .header-bottom nav .email {
-    font-family: "inter";
-    font-weight: 400;
+    font-family: "inter-regular";
     font-size: 10px;
     line-height: 12px;
 
@@ -110,8 +112,7 @@ header .header-bottom nav>a {
     text-align: center;
     
     color: white;
-    font-family: "inter";
-    font-weight: 400;
+    font-family: "inter-regular";
     font-size: 16px;
     line-height: 19px;
     text-decoration: none;
@@ -145,9 +146,11 @@ header .header-bottom .menu-usuarios {
     width: 17vw;
     height: calc(35vh - 60px);
     
-    background-image: linear-gradient(to right bottom, rgb(27, 20, 38, 0.7), rgb(27, 20, 38, 0.4));
+    background: linear-gradient(168.78deg, #1B1426 0%, rgba(27, 20, 38, 0.7) 0.01%, rgba(27, 20, 38, 0.4) 99.03%) padding-box,
+    linear-gradient(168.61deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 99.04%) border-box;
     backdrop-filter: blur(10px);
-    border-image: linear-gradient(to right bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    border: 1px solid transparent;
+    border-image-slice: 1;
     border-width: 1px;
     
     display: flex;
@@ -180,8 +183,7 @@ main .banner {
 
 main .banner h1 {
     color: white;
-    font-family: "titillium";
-    font-weight: 900;
+    font-family: "titillium-black";
     font-size: 40px;
     line-height: 60px;
 
@@ -197,8 +199,7 @@ main .banner .botao-sobre {
     margin-bottom: 40px;
     
     color: black;
-    font-family: "titillium";
-    font-weight: 700;
+    font-family: "titillium-bold";
     font-size: 24px;
     line-height: 36px;
     text-align: center;
@@ -238,9 +239,16 @@ main .populares .gradiente {
     width: 335px;
     height: 50px;
     border-radius: 8px;
-    background-image: linear-gradient(to right bottom, rgb(239, 239, 239, 0.6), rgb(239, 239, 339, 0.1));
+    background: linear-gradient(91.22deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%) padding-box,
+    linear-gradient(91.22deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.2) 100%) border-box;
+
+    
+    
     backdrop-filter: blur(2px);
-    border-image: linear-gradient(to right bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    border: 1px solid transparent;
+    border-image-slice: 1;
+
+
     
 }
 
@@ -262,8 +270,7 @@ main .populares .paralelograma {
 main .populares .texto {
     transform: skewX(50deg);
     color: black;
-    font-family: "titillium";
-    font-weight: 700;
+    font-family: "titillium-bold";
     font-size: 16px;
     line-height: 24px;
 }
@@ -292,9 +299,8 @@ main .time-pro {
 }
 
 main .time-pro h2 {
-    color: black;
-    font-family: "titillium";
-    font-weight: 900;
+    color: #1B1426;
+    font-family: "titillium-black";
     font-size: 17px;
     line-height: 25px;
     letter-spacing: 1px;
@@ -306,7 +312,7 @@ main .time-pro h2 {
 
 main .time-pro hr {
     width: 204px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #1B1426;
     margin-top: 27px;
     
 }
@@ -321,10 +327,13 @@ main .times-info .personagem-cima {
 main .times-info .gradiente-roxo {
     width: 231px;
     height: 300px;
-    background-image: linear-gradient(to right bottom, rgb(122, 49, 236, 0.2), rgb(47, 7, 109, 0.8));
+    background: linear-gradient(145.9deg, rgba(122, 49, 236, 0.2) 0%, rgba(47, 7, 109, 0.83) 98.56%) padding-box,
+    linear-gradient(146.52deg, rgba(255, 255, 255, 0.97) 0%, rgba(27, 20, 38, 0) 100%) border-box;
     backdrop-filter: blur(10px);
-    border-image: linear-gradient(to right bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
     border-radius: 8px;
+    border: 1px solid transparent;
+    border-image-slice: 1;
+
     padding: 50px 25px 60px 25px;
     
     display: flex;
@@ -345,8 +354,7 @@ main .times-info .caixa-cima {
 
 main .times-info .gradiente-roxo h3 {
     color: #FFFFFF;
-    font-family: "titillium";
-    font-weight: 900;
+    font-family: "titillium-black";
     font-size: 17px;
     line-height: 25px;
     text-transform: uppercase;
@@ -355,8 +363,7 @@ main .times-info .gradiente-roxo h3 {
     
 }
 main .times-info .gradiente-roxo p {
-    font-family: "quick-sand";
-    font-weight: 400;
+    font-family: "quick-sand-regular";
     font-size: 13px;
     line-height: 16px;
     text-align: justify;
@@ -390,8 +397,6 @@ main .noticias .noticias-gradiente {
     width: 100%;
     background-image: linear-gradient(to right bottom, rgb(45, 24, 77, 0), rgb(27, 20, 38, 1));
     backdrop-filter: blur(8px);
-    border-image: linear-gradient(to right bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
-    
 }
 
 main .noticias .noticias-flex {
@@ -408,15 +413,14 @@ main .noticias .noticia-titulo {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 82px;
     padding-top: 30px;
 }
 
 
 main .noticias .noticia-titulo h3 {
     color: #FFFFFF;
-    font-family: "titillium";
-    font-weight: 900;
+    font-family: "titillium-black";
     font-size: 18px;
     line-height: 27px;
     text-transform: uppercase;
@@ -437,13 +441,10 @@ main .noticias .box-noticias {
     border-radius: 8px;
     background-image: linear-gradient(to right bottom, rgb(37, 26, 52, 0.3), rgb(5, 1, 12, 0.8));
     backdrop-filter: blur(10px);
-    border-image: linear-gradient(to right bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
-
 }
 main .noticias .box-texto h3 {
     color: #FFFFFF;
-    font-family: "titillium";
-    font-weight: 700;
+    font-family: "titillium-bold";
     font-size: 24px;
     line-height: 36px;
     
@@ -451,8 +452,7 @@ main .noticias .box-texto h3 {
 }
 main .noticias .box-texto p {
     color: #FFFFFF;
-    font-family: "quick-sand";
-    font-weight: 400;
+    font-family: "quick-sand-regular";
     font-size: 16px;
     line-height: 20px;
     text-align: justify;
@@ -497,8 +497,7 @@ footer .sobre .logo {
 
 footer .sobre p {
     color: white;
-    font-family: "quick-sand";
-    font-weight: 400;
+    font-family: "quick-sand-regular";
     font-size: 16px;
     line-height: 20px;
     text-align: justify;
@@ -509,12 +508,12 @@ footer .midias-sociais {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 60px;
 }
 
 footer .titulos-footer h1 {
     color: white;
-    font-family: "titillium";
-    font-weight: 900;
+    font-family: "titillium-black";
     font-size: 40px;
     line-height: 60px;
 
@@ -530,21 +529,22 @@ footer .menu-footer ul {
     display: flex;
     flex-flow: wrap;
     margin-top: 20px;
-    
-    
+}
+
+footer .menu-footer li {
+    width: 108px;
+    margin-bottom: 20px;
 }
 
 footer .menu-footer li::before {
     content: "\2015";
     color: #F9AA01;
-    margin-right: 10px;
-    width: 100px;
+    margin-right: 2px;
 }
 
 footer .menu-footer a {
     color: white;
-    font-family: "inter";
-    font-weight: 400;
+    font-family: "inter-regular";
     font-size: 16px;
     line-height: 19px;
     text-align: justify;
@@ -569,8 +569,7 @@ footer .info-local {
 
 footer .info-local .info-contatos {
     color: #F9AA01;
-    font-family: "inter";
-    font-weight: 400;
+    font-family: "inter-regular";
     font-size: 16px;
     line-height: 19px;
     text-align: justify;
@@ -578,8 +577,7 @@ footer .info-local .info-contatos {
 
 footer .info-local .info-pessoal {
     color: white;
-    font-family: "inter";
-    font-weight: 400;
+    font-family: "inter-regular";
     font-size: 16px;
     line-height: 19px;
     text-align: justify;
@@ -602,17 +600,30 @@ footer .frm-news .input-footer {
     width: 100%;
     height: 50px;
     background-color: transparent;
-    background-image: linear-gradient(to right bottom, rgb(255, 255, 255, 1), rgb(255, 255, 255, 0.1));
-    backdrop-filter: blur(10px);
+    background: linear-gradient(90.26deg, rgba(239, 239, 239, 0.164) 0.05%, rgba(239, 239, 239, 0.1) 99.23%) padding-box,
+    linear-gradient(90.25deg, #FFFFFF 0.05%, rgba(255, 255, 255, 0) 100%) border-box;
+    backdrop-filter: blur(5px);
     border-radius: 8px;
+    border: 1px solid transparent;
+    border-image-slice: 1;
+
+
     color: white;
-    font-family: "titillium";
-    font-weight: 400;
+    font-family: "titillium-regular";
     font-size: 16px;
     line-height: 24px;
     padding: 0px 10px;
     margin-bottom: 10px;
     
+}
+
+footer .frm-news .input-footer::placeholder {
+    color: white;
+    font-family: "titillium-regular";
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
 }
 
 footer .frm-news .button {
@@ -621,8 +632,7 @@ footer .frm-news .button {
     background-color: #F9AA01;
     border-radius: 8px;
     color: black;
-    font-family: "titillium";
-    font-weight: 700;
+    font-family: "titillium-bold";
     font-size: 24px;
     line-height: 36px;
     border: none;
