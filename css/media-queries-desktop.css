@@ -183,10 +183,17 @@
 
     main .times-info {
         height: 1000px;
-        display: flex;
-        justify-content: space-between;
+        position: relative;
+    }
+
+    main .times-info .time-pro-flex {
         flex-direction: row;
     }
+
+    main .times-info .time-pro {
+        
+    }
+
 
     main .time-pro h2 {
         font-size: 40px;

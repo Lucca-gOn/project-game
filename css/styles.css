@@ -1,17 +1,3 @@
-/* Fontes importadas */
-@font-face {
-    font-family:"titillium" ;
-    src: url(../assets/fonts/Titillium-web/TitilliumWeb-Regular.ttf);
-}
-@font-face {
-    font-family: "quick-sand";
-    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
-}
-
-@font-face {
-    font-family: "inter";
-    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
-}
 
 /* PROPRIEDADES DE RESET */
 * {
@@ -288,17 +274,29 @@ main .times-info {
     width: 100%;
     height: 1535px;
     background-color: #F9AA01;
-
-    position: relative;
 }
 
-main .time-pro {
+main .times-info .time-pro-flex {
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 150px;
 }
 
-main .time-pro h2 {
+main .times-info .time-pro {
+    width: 100%;
+    height: 100px;
+
+    margin-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+main .times-info .time-pro h2 {
     color: #1B1426;
     font-family: "titillium-black";
     font-size: 17px;
@@ -310,19 +308,21 @@ main .time-pro h2 {
     
 }
 
-main .time-pro hr {
+main .times-info .time-pro hr {
     width: 204px;
     border-bottom: 2px solid #1B1426;
     margin-top: 27px;
     
 }
 
-main .times-info .personagem-cima {
-    position: absolute;
-    top: 228px;
-    left: 20px;
-    
+main .box-killjoy {
+    width: 314px;
+    height: 511px;
+    display: flex;
+   align-items: center;
+    position: relative;
 }
+
 
 main .times-info .gradiente-roxo {
     width: 231px;
@@ -345,13 +345,6 @@ main .times-info .gradiente-roxo {
     
 }
 
-main .times-info .caixa-cima {
-    position: absolute;
-    top: 360px;
-    left: 125px;
-    
-}
-
 main .times-info .gradiente-roxo h3 {
     color: #FFFFFF;
     font-family: "titillium-black";
@@ -369,17 +362,26 @@ main .times-info .gradiente-roxo p {
     text-align: justify;
 }
 
-main .times-info .personagem-baixo {
-    position: absolute;
-    top: 869px;
-    left: 26px;
-
+main .times-info .caixa-cima {
+  position: absolute;
+  top: 132px;
+  left: 105px;
 }
+
+main .box-jinx {
+    width: 322px;
+    height: 428px;
+    display: flex;
+    align-items: center;
+    position: relative;
+} 
+
 
 main .times-info .caixa-baixo {
     position: absolute;
-    top: 999px;
-    left: 107px;
+    left: 81px;
+    bottom: 0px;
+    
 }
 
 /* SECTION NOTICIAS */
