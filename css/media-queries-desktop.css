@@ -183,35 +183,32 @@
 
     main .times-info {
         height: 1000px;
-        position: relative;
     }
 
     main .times-info .time-pro-flex {
+        margin-top: 100px;
+        justify-content: space-between;
         flex-direction: row;
     }
 
     main .times-info .time-pro {
-        
+        margin-bottom: 0px;
     }
-
-
-    main .time-pro h2 {
+    
+    main .times-info .time-pro h2 {
         font-size: 40px;
         line-height: 60px;  
     }
     
-    main .times-info .personagem-cima img {
+    main .times-info .killjoy img {
         display: none;
     }
     
-    main .times-info .personagem-cima {
+    main .times-info .box-killjoy {
         width: 425px;
         height: 692px;
         background-image: url(../assets/images/Vectorkilljoy-desktop.png);
         background-repeat: no-repeat;
-
-        top: 226px;
-        left: 189px;
     }
 
     main .times-info .gradiente-roxo {
@@ -220,8 +217,8 @@
     }
     
     main .times-info .caixa-cima {
-        top: 406px;
-        left: 360px;
+        top: 180px;
+        left: 168px;
         
     }
 
@@ -240,23 +237,20 @@
         line-height: 20px;
     }
     
-    main .times-info .personagem-baixo img {
+    main .times-info .jinx img {
         display: none;
     }
 
-    main .times-info .personagem-baixo {
+    main .times-info .box-jinx {
         width: 521px;
         height: 694px;
         background-image: url(../assets/images/Vectorjinx-desktop.png);
         background-repeat: no-repeat;
-
-        top: 206px;
-        left: 728px;
     }
 
     main .times-info .caixa-baixo {
-        top: 406px;
-        left: 739px;
+        top: 180px;
+        left: 11px;
     }
     
     /* SECTION NOTICIAS */
@@ -304,7 +298,7 @@
     }
     
     main .noticias .box-texto h3 {
-        padding: 30px 60px 12px 20px;
+        padding: 30px 60px 12px 15px;
     }
     main .noticias .box-texto p {
         padding: 0px 15px 30px 15px;

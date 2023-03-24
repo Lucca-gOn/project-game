@@ -234,8 +234,6 @@ main .populares .gradiente {
     border: 1px solid transparent;
     border-image-slice: 1;
 
-
-    
 }
 
 main .populares .paralelograma {
@@ -315,11 +313,10 @@ main .times-info .time-pro hr {
     
 }
 
-main .box-killjoy {
+main .times-info .box-killjoy {
     width: 314px;
     height: 511px;
     display: flex;
-   align-items: center;
     position: relative;
 }
 
@@ -372,7 +369,6 @@ main .box-jinx {
     width: 322px;
     height: 428px;
     display: flex;
-    align-items: center;
     position: relative;
 } 
 
