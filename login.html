@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Gamer</title>
+    <link rel="stylesheet" href="./css/styles-login.css">
+    <link rel="stylesheet" href="./css/import-fonts.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="./css/media-queries-login.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="layout-grid header-flex">
+                <div class="contatos">
+                    <div class="phone">
+                        <img src="./assets/icons/icon-telefone.svg" alt="icone do telefone">
+                        <span>(11) 0000-0000</span>
+                    </div>
+                    <div class="email">
+                        <img src="./assets/icons/icon-email.svg" alt="icone do email">
+                        <span>lucas.g@gamer.com.br</span>
+                    </div>
+                </div>
+
+                <div class="midias-sociais">
+                    <a href="">
+                        <img src="./assets/icons/icon-facebook.svg"
+                            alt="Uma imagem com uma letra com forma de F de facebook">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/icon-linkdin.svg" alt="Imagem de duas letras IN de linkedin">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/icon-instagram.svg"
+                            alt="Uma imagem de camera fotografica de instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom ">
+            <div class="layout-grid alinhamento-between-centro">
+                <img onclick="mostrarMenu()" class="menu-hamburguer" src="./assets/icons/icon-menu-lateral.svg"
+                    alt="Icone para abrir e fechar o menu lateral mobile">
+                <img class="logo" src="./assets/images/logotipo-gamer.svg"
+                    alt="Imagem de um controle com um texto por baixo">
+                <nav class="menu" id="menu">
+                    <a href="">Início</a>
+                    <a href="">Jogadores</a>
+                    <a href="">Equipes</a>
+                    <a href="">Notícias</a>
+
+                    <!-- VISIVEL APENAS NO MOBILE -->
+
+                    <a class="phone">
+                        <img src="./assets/icons/icon-telefone.svg" alt="icone do telefone">
+                        <span>(11) 0000-0000</span>
+                    </a>
+                    <a class="email">
+                        <img src="./assets/icons/icon-email.svg" alt="icone do email">
+                        <span>lucas.g@gamer.com.br</span>
+                    </a>
+
+                    <!-- VISIVEL APENAS NO MOBILE -->
+                    <div class="midias-sociais">
+                        <a href="">
+                            <img src="./assets/icons/icon-facebook.svg"
+                                alt="Uma imagem com uma letra com forma de F de facebook">
+                        </a>
+                        <a href="">
+                            <img src="./assets/icons/icon-linkdin.svg" alt="Imagem de duas letras IN de linkedin">
+                        </a>
+                        <a href="">
+                            <img src="./assets/icons/icon-instagram.svg"
+                                alt="Uma imagem de camera fotografica de instagram">
+                        </a>
+                    </div>
+                </nav>
+                <!-- menu 3 pontinhos -->
+                <img onclick="mostrarMenuUser()" class="menu-pontos" src="./assets/icons/icon-menu-lateral2.svg"
+                    alt="Icone 3 pontinhos que abre o menu lateral">
+
+                <div class="menu-usuarios" id="menu-usuarios">
+                    <a href="">
+                        <img src="./assets/icons/icon-login.svg" alt="Uma imagem de um boneco que indica perfil">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/icon-loja.svg" alt="Uma sacola de compras">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/icon-lupa.svg" alt="Uma lupa indicando pesquisa">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="login">
+        <form class="layout-grid login-flex">
+            <div class="form-login">
+                <div class="titulo-login">
+                    <h2>Login</h2>
+                    <hr>
+                </div>
+                <div class="info-login">
+                    <div class="email">
+                        <img src="./assets/icons/icon-digiteemail-mobile.svg"
+                            alt="um boneco ao lado de um texto, referindo-se a login">
+                        <input class="input-email" type="email" placeholder="Digite seu e-mail:">
+                    </div>
+                </div>
+                <div class="info-login">
+                    <div class="senha">
+                        <img src="./assets/icons/icon-digitesenha-mobile.svg"
+                            alt="uma chave ao lado de um texto, referindo-se a senha pessoal">
+                        <input class="input-senha" type="senha" placeholder="Digite sua senha:">
+                    </div>
+                </div>
+                <button class="Logar">Logar</button>
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <div class="footer-background">
+            <div class="footer-flex layout-grid">
+                <div class="sobre">
+                    <img class="logo" src="./assets/images/logotipo-gamer.svg"
+                        alt="Imagem de um controle com um texto por baixo">
+                    <p>Nosso sucesso na criação de soluções de negócios se deve em grande parte à nossa equipe talentosa
+                        e altamente comprometida.</p>
+
+                    <div class="midias-sociais">
+                        <a href="">
+                            <img src="./assets/icons/icon-facebook-footer.svg"
+                                alt="Uma imagem com uma letra com forma de F de facebook">
+                        </a>
+                        <a href="">
+                            <img src="./assets/icons/icon-linkedin-footer.svg"
+                                alt="Imagem de duas letras IN de linkedin">
+                        </a>
+                        <a href="">
+                            <img src="./assets/icons/icon-instagram-footer.svg"
+                                alt="Uma imagem de camera fotografica de instagram">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="links-uteis">
+                    <div class="titulos-footer">
+                        <h1>Links Úteis</h1>
+                        <hr>
+                    </div>
+                    <div class="menu-footer">
+                        <ul>
+                            <li><a href="">Início</a></li>
+                            <li><a href="">Jogadores</a></li>
+                            <li><a href="">Notícias</a></li>
+                            <li><a href="">Equipes</a></li>
+                            <li><a href="">Login</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="contatos">
+                    <div class="titulos-footer">
+                        <h1>Contatos</h1>
+                        <hr>
+                        <div class="info-local">
+                            <span class="info-contatos">Localização:</span>
+                            <span class="info-pessoal">Rua Niterói,180 - São Caetano do Sul-SP</span>
+                            <span class="info-contatos">Junte-se a nós:</span>
+                            <span class="info-pessoal">contato@gamer.com.br</span>
+                            <span class="info-contatos">Telefone:</span>
+                            <span class="info-pessoal">(11) 0000-0000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <div class="titulos-footer">
+                        <h1>Newsletter</h1>
+                        <hr>
+                    </div>
+
+                    <form action="" class="frm-news">
+                        <input class="input-footer" type="email" placeholder="Digite seu email:">
+                        <button class="button">Enviar</button>
+                    </form>
+                </div>
+
+                <div class="voltar-inicio">
+                    <img src="./assets/icons/icon-voltar-ao-topo.svg"
+                        alt="uma seta apontada para cima, utilizada para voltar ao inicio da pagina">
+                </div>
+                <div class="copy-right">
+                    <span>©Copyright2023-Nomedoprojeto</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function mostrarMenu() {
+            document.getElementById("menu").classList.toggle("mostrar-menu");
+        }
+        function mostrarMenuUser() {
+            document.getElementById("menu-usuarios").classList.toggle("mostrar-user");
+        }
+
+    </script>
+</body>
+
+</html>

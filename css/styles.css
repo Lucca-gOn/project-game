@@ -153,8 +153,8 @@ header .header-bottom .menu-usuarios {
 
 main .banner {
     width: 100%;
-    height: 670px;
-    background-image: url(../assets/images/banner-mobile-home.png);
+    height: 700px;
+    background-image: url(../assets/images/mobilewallpapaer-home.gif );
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -643,7 +643,7 @@ footer .copy-right {
 }
 
 footer .copy-right span {
-    font-family: "inter";
+    font-family: "inter-regular";
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
